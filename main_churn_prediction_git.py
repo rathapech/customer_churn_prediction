@@ -191,7 +191,7 @@ if __name__ == "__main__":
         #PRE_REC_FSCORE_MLP.append(T_SCORE_NB)
         print('NB accuracy: ', SCORE_NB*100)
     
-    # Display all the performane measured by accuracy, precision, recall and F-Score
+    # Display all the performanes measured by accuracy, precision, recall and F-Score
     print("===========================================\n")
     print('Accuracy\n')
     print(np.average(TOTAL_SCORE_SVM))
